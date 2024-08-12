@@ -1,0 +1,19 @@
+html,body{
+  background:url("/hh/Om.jpg");
+  background-size: 250vh 400vh;
+}
+.hkm{
+     margin:30px;
+     height:200px;
+     font-size:100px;
+     color:white;
+     background-color:rgba(255, 255, 255, 0.5);
+     backdrop-filter: blur(25px);
+     border-width: 5px;
+     border-radius: 20%;
+     border-color: rgba(255, 255, 255, 1);
+}
+.h1{
+     color:white;
+     font-size:90px;
+}

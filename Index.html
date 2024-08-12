@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+  
+<body>
+  <div id="mantras">
+  <h1 class=h1>available mantras</h1>
+  <input type="button" value="Hare krsna mahamantra" id="hkm" class="hkm">
+<input type="button" value="shiv maha mritunjay mantra" id=mru class="hkm">
+<input type="button" value="gayatri mantra"id=gyt class="hkm">
+  </div>
+
+</body>
+<script>
+  document.getElementById('hkm').addEventListener('click',function(){
+    window.location.href="hkm.html"
+  })
+</script>
+<script>
+  document.getElementById('mru').addEventListener('click', function() {
+    window.location.href = "mtj.html"
+  })
+</script>
+<script>
+  document.getElementById('gyt').addEventListener('click', function() {
+    window.location.href = "gyt.html"
+  })
+</script>
+</html>
